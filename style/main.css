@@ -44,7 +44,7 @@ header nav a:hover{
 /*Filme Principal*/
 .capa{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/primeiro_desafio_de_projeto/img/capa1.JPG');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/siteGKR/img/05hands-map.JPG');
     height:600px;
     background-size:cover;
     display:flex;
