@@ -11,40 +11,27 @@
 
 /*Elementos Base*/
 body {
-    background: rgb(205, 255, 242);    
+    background: rgb(255, 255, 255);    
     font-family: 'Papyrus', Times, serif;
     color: white;
 }
 
 header .container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo{
-    margin-left: 5px;
-    color: rgb(37, 141, 37);
-    font-family: 'Papyrus', Times;
-    font-size: 40px;
-}
-
-header nav a{
-    text-decoration:none;
-    color: rgb(172, 171, 171);
-    margin-right: 30px;
-    font-family: 'Papyrus', Times;
-}
-
-header nav a:hover{
-    color:rgb(102, 255, 82);
+header .logoGKR{
+    width: 500px;
+    height: 172px;
 }
 
 /*Filme Principal*/
 .capa{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/siteGKR/img/05hands-map.JPG');
+    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%), url('/siteGKR/img/05hands-map.JPG');
     height:600px;
     background-size:cover;
     display:flex;
