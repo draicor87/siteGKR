@@ -51,7 +51,7 @@ header .logoGKR{
     margin-top: 2%;
 }
 
-.botao{
+.botao1{
     background-color: rgba(0,0,0,.50);
     border: none;
     border-radius: 10px;
@@ -65,12 +65,12 @@ header .logoGKR{
     transition: .3s ease all;
 }
 
-.botao:hover{
+.botao1:hover{
     background-color: rgb(255, 255, 255, .50);
     color: black;
 }
 
-.botao i{
+.botao1 i{
     margin-right: 10px;
 }
 
@@ -83,12 +83,12 @@ header .logoGKR{
 }
 
 .container .servicos{
-    color: #1f1d1d;
+    color: #777575;
     margin-top: 10px;
 }
 
 .box-produto{
-    height: 480px;
+    height: 430px;
     width: 327px;
     display: block;
     cursor: pointer;
