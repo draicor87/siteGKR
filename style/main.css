@@ -41,14 +41,20 @@ header .logoGKR{
     border-radius: 15px;
 }
 
+.capa .container{
+    width: 60%;
+}
+
 .capa .titulo{    
     margin-top: 20%;
+    margin-left: 5%;
     font-size: 35px;
     font-family: 'Calibri', 'Trebuchet MS', sans-serif, Times, serif;
 }
 
 .capa .descricao{
     margin-top: 2%;
+    margin-left: 5%;
 }
 
 .botao1{
@@ -66,7 +72,7 @@ header .logoGKR{
 }
 
 .botao1:hover{
-    background-color: rgb(255, 255, 255, .50);
+    background-color: rgba(255, 60, 0, 0.918);
     color: black;
 }
 
@@ -74,12 +80,8 @@ header .logoGKR{
     margin-right: 10px;
 }
 
-.container{
+.container .servicos{
     margin-left: 30px;
-}
-
-.capa .container{
-    width: 50%;
 }
 
 .container .servicos{
@@ -102,4 +104,41 @@ header .logoGKR{
 .item{
     font-family: 'Calibri', 'Trebuchet MS', sans-serif, Times, serif;
     color: #e0dfdf;
+}
+
+.container .siga{
+    margin-left: 30px;
+}
+
+.container .siganos{
+    color: #777575;
+    margin-top: 10px;
+}
+
+.container .botao2{
+    background-color: rgba(0,0,0,.80);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao2:hover{
+    background-color: rgba(255, 60, 0, 0.918);
+    color: rgb(0, 0, 0);
+}
+
+.botao2 i{
+    margin-right: 10px;
+}
+
+.creditos{
+    margin-top: 15px;
+    color:#333333;
+    text-align: center;
 }
