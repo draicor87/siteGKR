@@ -82,9 +82,6 @@ header .logoGKR{
 
 .container .servicos{
     margin-left: 30px;
-}
-
-.container .servicos{
     color: #777575;
     margin-top: 10px;
 }
@@ -106,13 +103,24 @@ header .logoGKR{
     color: #e0dfdf;
 }
 
-.container .siga{
+.container .portfolio2{
     margin-left: 30px;
+    color: #777575;
+    margin-top: 10px;
+}
+
+.portfolio3{
+    height: 300px;
+    width: 400px;
+    display: block;
+    cursor: pointer;
+    border-radius:15px;    
 }
 
 .container .siganos{
     color: #777575;
     margin-top: 10px;
+    margin-left: 30px;
 }
 
 .container .botao2{
